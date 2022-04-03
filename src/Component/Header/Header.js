@@ -4,7 +4,7 @@ import './Header.css' ;
 
 const Header = () => {
     return (
-        <div>
+        <div className='header-container'>
            <nav>
            <CustomLink to={'/home'}>HOME</CustomLink>
             <CustomLink to={'/reviews'}>REVIEWS</CustomLink>
