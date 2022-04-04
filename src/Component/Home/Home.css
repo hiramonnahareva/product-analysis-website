@@ -1,4 +1,4 @@
-.home-container {
+.section-one {
     margin: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -8,7 +8,7 @@
     margin-right: 50px;
     margin-left: 50px;
 }
-.info  h1 {
+.home-container  h1 {
     font-size: 50px;
     font-weight: 500;
    
@@ -20,4 +20,25 @@
 }
 .home-container img{
  width: 50%;
+}
+.reviews {
+    margin: 20px;
+    display: grid ;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+
+}
+.see-all-btn {
+    justify-content: center;
+    border: 2px solid purple;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px 60px;
+    margin: 20px;
+    border-radius: 2px;
+    transition-timing-function: ease-in ;
+    transition-duration: 0.4s;
+}
+.see-all-btn:hover {
+    background-color: purple;
 }
