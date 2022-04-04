@@ -3,7 +3,6 @@ import './Review.css'
 
 const Review = (props) => {
     const {name , review , img , rating} = props.review ;
-    console.log ()
     return (
         <div className='review'>
             <img src= {img} alt="" />

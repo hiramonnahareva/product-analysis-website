@@ -98,7 +98,13 @@ const Dashbord = () => {
           <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
         </BarChart>
             </div>
-
+            <div className="revenue">
+            <h3>Revenue VS Investment</h3>
+            <PieChart width={730} height={250}>
+  <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+  <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+</PieChart>
+            </div>
             </div>
         </div>
     );

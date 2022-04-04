@@ -1,7 +1,6 @@
 [
     {
       "id": "6249de508b1ad65c9b81dcc8",
-      "price": 71,
       "name": "Karyn Cardenas",
       "img": "https://images.pexels.com/photos/3073721/pexels-photo-3073721.jpeg?cs=srgb&dl=pexels-peng-louis-3073721.jpg&fm=jpg",
       "rating": "7/80" ,
@@ -9,7 +8,6 @@
     },
     {
       "id": "6249de503eb2da4fb349e64c",
-      "price": 88,
       "name": "Blevins Schroeder",
       "img": "https://images.pexels.com/photos/1082255/pexels-photo-1082255.jpeg?cs=srgb&dl=pexels-vinicius-benedit-1082255.jpg&fm=jpg",
       "rating": "7/80" ,
@@ -17,7 +15,6 @@
     },
     {
       "id": "6249de5033ff7e0c403098e3",
-      "price": 86,
       "name": "Garrett Byrd",
       "img": "https://images.pexels.com/photos/679855/pexels-photo-679855.jpeg?cs=srgb&dl=pexels-mustafa-ezz-679855.jpg&fm=jpg",
       "rating": "7/80" ,
@@ -25,7 +22,6 @@
     },
     {
       "id": "6249de50ee27e97a496ca9a8",
-      "price": 65,
       "name": "Gloria Bartlett",
       "img": "https://images.pexels.com/photos/736535/pexels-photo-736535.jpeg?cs=srgb&dl=pexels-monique-laats-736535.jpg&fm=jpg",
       "rating": "7/80" ,
@@ -33,7 +29,6 @@
     },
     {
       "id": "6249de5078f5169db9c680bd",
-      "price": 98,
       "name": "Baxter Williams",
       "img": "https://images.pexels.com/photos/3073694/pexels-photo-3073694.jpeg?cs=srgb&dl=pexels-peng-louis-3073694.jpg&fm=jpg",
       "rating": "7/80" ,
@@ -41,7 +36,6 @@
     },
     {
       "id": "6249de5028f99114c256abc5",
-      "price": 77,
       "name": "Carroll Bruce",
       "img": "https://images.pexels.com/photos/7524926/pexels-photo-7524926.jpeg?cs=srgb&dl=pexels-omar-ramadan-7524926.jpg&fm=jpg",
       "rating": "7/80" ,

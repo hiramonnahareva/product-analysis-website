@@ -26,7 +26,7 @@ const Home = () => {
                 
                    <div className="reviews">
                    {
-                        reviews.map (review => <Review key = {review.id} review = {review}></Review>)
+                        reviews.slice(0 , 3).map (review => <Review key = {review.id} review = {review}></Review>)
                     }
                    </div>
                     <button onClick={showAllReviews} className='see-all-btn'>See All</button>
