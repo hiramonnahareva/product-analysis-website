@@ -47,16 +47,19 @@ const Dashbord = () => {
             <div className="chart-container">
             <div className="revenue">
                 <h3>Show sell</h3>
-            <LineChart width={560} height={400} data={data}>
+                {/* <ResponsiveContainer width={200} height="75%"> */}
+            <LineChart width={300} height={250} data={data}>
              <Line dataKey='sell' />
              <XAxis dataKey='month'></XAxis>
              <YAxis dataKey='sell'></YAxis>
              <Tooltip />
             </LineChart>
+            {/* </ResponsiveContainer> */}
             </div>
             <div className="revenue">
                 <h3>Revenue VS Investment</h3>
-                <AreaChart width={730} height={250} data={data}
+
+                <AreaChart width={300} height={250} data={data}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
   <defs>
     <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -79,8 +82,8 @@ const Dashbord = () => {
             <div className="revenue">
             <h3>Revenue VS Investment</h3>
         <BarChart
-          width={600}
-          height={300}
+          width={300}
+          height={250}
           data={data}
           margin={{
             top: 20,
@@ -94,16 +97,16 @@ const Dashbord = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="investment" stackId="a" fill="#8884d8" />
-          <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+          <Bar dataKey="investment" stackId="a" fill="#d24dff" />
+          <Bar dataKey="revenue" stackId="a" fill="#f9e6ff" />
         </BarChart>
             </div>
             <div className="revenue">
             <h3>Revenue VS Investment</h3>
-            <PieChart width={730} height={250}>
-  <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
-  <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
-</PieChart>
+            <PieChart width={330} height={250}>
+            <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d9" />
+            <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+            </PieChart>
             </div>
             </div>
         </div>

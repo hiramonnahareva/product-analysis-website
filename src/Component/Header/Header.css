@@ -7,3 +7,12 @@ nav {
     gap: 20px;
    
 }
+.header-container span{
+   display: none;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        display: block;
+        gap: 20px;
+    }
+}

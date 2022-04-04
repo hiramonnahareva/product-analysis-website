@@ -42,3 +42,18 @@
 .see-all-btn:hover {
     background-color: purple;
 }
+@media only screen and (max-width: 600px) {
+    .section-one {
+        margin: 50px;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .reviews {
+        margin: 20px;
+        display: grid ;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+    
+    }
+}
