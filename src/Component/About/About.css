@@ -1,0 +1,15 @@
+.about-container p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+}
+.about-container img {
+    width: 80%;
+}
+.about-container h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}

@@ -41,6 +41,7 @@
 }
 .see-all-btn:hover {
     background-color: purple;
+    color: white;
 }
 @media only screen and (max-width: 600px) {
     .section-one {

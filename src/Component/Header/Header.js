@@ -1,7 +1,6 @@
 import React from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 import './Header.css' ;
-import { FaBars } from 'react-icons/fa';
 
 const Header = () => {
     return (
