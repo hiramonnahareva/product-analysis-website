@@ -1,12 +1,13 @@
 .section-one {
     margin: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .info {
-    margin-right: 50px;
+    margin-right: 100px;
     margin-left: 50px;
+    text-align: justify;
 }
 .home-container  h1 {
     font-size: 50px;
@@ -22,7 +23,7 @@
  width: 50%;
 }
 .reviews {
-    margin: 20px;
+    margin: 50px;
     display: grid ;
     grid-template-columns: repeat(3 , 1fr);
     gap: 20px;

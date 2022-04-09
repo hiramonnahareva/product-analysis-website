@@ -3,24 +3,19 @@
     padding: 10px;
     margin-top: 20px;
     color: white;
+    text-align: start;
 }
 .footer-container h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
-    padding-left: 10%;
-
 }
 .footer-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0 , 20px;
 }
-.footer-info p {
-    text-align: center;
-}
-.contact {
-    text-align: justify;
+.footer-info .title {
+    padding-bottom: 20px;
 }
 hr {
     width: 80%;
@@ -28,17 +23,20 @@ hr {
 }
 .icon {
     padding: 20px 0px;
+    text-align: center;
 }
 .icon span{
   font-size: 18px;
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
+  transition-timing-function: ease-in ;
+  transition-duration: 0.3s;
+  padding-left: 10px;
 }
 .icon span:hover{
-   font-size: 20px;
+   font-size: 26px;
     
+}
+.icon span a {
+    color: white ;
 }
 @media only screen and (max-width: 600px) {
     .footer-info {

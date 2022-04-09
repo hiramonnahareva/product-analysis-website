@@ -7,3 +7,4 @@
 * write bonus qustion in blogs page .
 * create home page .
 * create custom hook .
+* design footer section .
