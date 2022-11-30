@@ -1,5 +1,5 @@
 # Cat Food Review
-## [Live website link](https://elegant-melba-17c1b9.netlify.app/about).
+## [Live website link](https://elegant-melba-17c1b9.netlify.app).
 
 
 * food reviews in reviews page .
